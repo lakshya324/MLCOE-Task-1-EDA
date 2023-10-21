@@ -1,43 +1,72 @@
-# MLCOE Task 1.1 - Exploratory Data Analysis (EDA)
+# Machine Learning Center of Excellence (MLCOE) - Tasks 1.1 and 1.2
 
-This notebook (Task1.1_Exploratory-Data-Analysis(EDA).ipynb) is part of the Machine Learning Center of Excellence (MLCOE) training and focuses on Exploratory Data Analysis (EDA). EDA is a crucial step in the data science process, allowing data scientists to analyze and investigate datasets, summarizing their main characteristics, often employing data visualization methods.
+This repository contains the exploratory data analysis (EDA) notebooks for Task 1.1 and Task 1.2 as part of the Machine Learning Center of Excellence (MLCOE) training.
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [What is EDA?](#what-is-eda)
-3. [Installing Libraries](#installing-libraries)
-4. [Importing DataSet](#importing-dataset)
-5. [Data Preprocessing](#data-preprocessing)
-6. [Finding Movie 1 Analysis](#finding-movie-1-analysis)
-7. [Best Regards](#best-regards)
+## Task 1.1 - Exploratory Data Analysis (EDA)
 
-## Introduction
+### Dataset: [MovieLens](https://grouplens.org/datasets/movielens/)
 
-This notebook is part of the MLCOE training and covers Exploratory Data Analysis (EDA) using a dataset from MovieLens. The main goal is to analyze and visualize the distribution of ratings for movies and gain insights from the data.
+#### Key Insights:
 
-## What is EDA?
+1. **Ratings Distribution:**
+   - Among all movies reviewed, mostly, reviews are 4-star reviews followed by 3-star.
+   - Among 193,609 movies, only 9,724 movies received any rating from 610 total users.
 
-**Exploratory data analysis (EDA)** is used by data scientists to analyze and investigate data sets and summarize their main characteristics, often employing data visualization methods.
+2. **Highest Rated Movies:**
+   - Rating distribution for movies receiving at least one review.
+   - Notable movies for each rating:
+      - Rating 0.0: "When Night Is Falling (1995)" with 609 ratings.
+      - Rating 4.5: "Shawshank Redemption, The (1994)" with 49 ratings.
+      - Rating 5.0: "Shawshank Redemption, The (1994)" with 153 ratings.
 
-## Installing Libraries
+## Task 1.2 - Exploratory Data Analysis (EDA)
 
-Ensure you have the necessary libraries installed by running the provided code block to import NumPy, Pandas, and Matplotlib.
+### Dataset: [MLCOE Given Dataset](https://docs.google.com/spreadsheets/d/1jpOdtGqOci9WPK7pwVN0MMmw1UOjH7ZN3zNcaBfTKug/edit#gid=135879892)
 
-## Importing DataSet
+#### Key Insights:
 
-The notebook imports the MovieLens dataset, and you can find the dataset link [here](https://grouplens.org/datasets/movielens/). The dataset is loaded using Pandas and initial exploratory analysis is performed.
+1. **Data Overview:**
+   - Data contains null values, but they are not numerous.
 
-## Data Preprocessing
+2. **Demographics:**
+   - Age distribution is varied.
+   - Approximately 65% of clients are males.
 
-The notebook demonstrates data preprocessing steps, converting the data into a matrix form where rows represent users, columns represent movies, and entries represent user ratings.
+3. **Purchase Insights:**
+   - Most people review items with 3-4 stars, and overall reviews are positive.
+   - Most customers didn't buy a subscription or receive any discount on products.
+   - About 65% of customers didn't apply any promo code.
+   - Customers mostly pay with a credit card.
+   - The most preferred shipping method is standard shipping.
 
-## Finding Movie 1 Analysis
+4. **Product Insights:**
+   - Top items sold include Blouse, Jewelry, Sweater, Sneakers, and Shirt.
+   - Customers mostly buy clothing items followed by accessories.
 
-An analysis of the distribution of ratings for Movie 1 (Toy Story 1995) is presented, along with insights into the overall distribution of ratings for all movies.
+5. **Geographic Insights:**
+   - The top states customers come from are Illinois, New York, Wisconsin, California, and Florida.
 
-## Best Regards
+6. **Category Insights:**
+   - Customers mostly buy medium-sized items.
+   The colors customers buy the most are Silver, Cyan, Black, Green, and Magenta.
 
-The notebook concludes with a signature and timestamp.
+7. **Seasonal Trends:**
+   - Sales are almost constant across all seasons.
 
-**Author:** Lakshya Sharma
-**Date:** 20/10/2023 1:56 AM
+8. **Payment Methods and Frequency:**
+   - Mostly, customers pay with a credit card.
+   - About 80% of customers didn't buy a subscription.
+   - About 65% of customers didn't receive discounts or apply promo codes.
+
+9. **User Behavior Insights:**
+   - Mostly, customers buy items every 3 months.
+   - All age and gender groups have an equal distribution.
+
+10. **Sales Strategy Recommendations:**
+    - Focus on subscription marketing.
+    - Consider offering discounts to increase sales.
+    - Target areas like Hawaii for high-priced products and Alabama for a moderate pricing strategy.
+
+## Best Regards,
+
+Lakshya Sharma
