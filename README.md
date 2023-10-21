@@ -1,6 +1,6 @@
-# Machine Learning Center of Excellence (MLCOE) - Tasks 1.1 and 1.2
+# Machine Learning Center of Excellence (MLCOE) - Tasks 1
 
-This repository contains the exploratory data analysis (EDA) notebooks for Task 1.1 and Task 1.2 as part of the Machine Learning Center of Excellence (MLCOE) training.
+This repository contains the exploratory data analysis (EDA) notebooks for <b>Task 1.1 (Self-Chosen Dataset)</b> and <b>Task 1.2 (Given Dataset)</b> as part of the Machine Learning Center of Excellence (MLCOE) training.
 
 ## Task 1.1 - Exploratory Data Analysis (EDA)
 
@@ -70,3 +70,4 @@ This repository contains the exploratory data analysis (EDA) notebooks for Task 
 ## Best Regards,
 
 Lakshya Sharma
+(21/10/2023 11:08 PM)
