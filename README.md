@@ -4,7 +4,7 @@ This repository contains the exploratory data analysis (EDA) notebooks for <b>Ta
 
 ## Task 1.1 - Exploratory Data Analysis (EDA)
 
-### Dataset: [MovieLens](https://grouplens.org/datasets/movielens/)
+### Dataset: [MovieLens Dataset](https://grouplens.org/datasets/movielens/)
 
 #### Key Insights:
 
